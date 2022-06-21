@@ -11,9 +11,6 @@
         "../test/**/*"
     ],
     "typedocOptions" :{
-        "entryPoints": [
-            "../src/Calculator.ts"	
-        ],
         "excludePrivate": true,
         "excludeProtected": true,
         "disableSources": true,
