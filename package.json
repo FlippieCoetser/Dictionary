@@ -1,8 +1,8 @@
 {
-  "name": "@browser-modules/typescript.template",
+  "name": "@browser-modules/typescript.dictionary",
   "version": "1.0.19",
-  "description": "Typescript Base template for creating browser compatible ES6 modules, including unit tests and documentation",
-  "browser": "lib/Calculator.js",
+  "description": "Typescript Dictionary complied to ES6 modules",
+  "browser": "lib/Dictionary.js",
   "files": [
     "lib/",
     "tasks/"	
@@ -22,14 +22,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlippieCoetser/typescript.template.git"
+    "url": "git+https://github.com/FlippieCoetser/typescript.dictionary.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FlippieCoetser/typescript.template/issues"
+    "url": "https://github.com/FlippieCoetser/typescript.dictionary/issues"
   },
-  "homepage": "https://github.com/FlippieCoetser/typescript.template#readme",
+  "homepage": "https://github.com/FlippieCoetser/typescript.dictionary#readme",
   "devDependencies": {
     "@knodes/typedoc-plugin-pages": "^0.22.5",
     "@types/jasmine": "^4.0.3",
