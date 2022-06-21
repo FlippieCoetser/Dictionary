@@ -1,2 +1,4 @@
-# Typescript Template
-Bundle free typescript template used to create a browser compatible es6 module, including unit tests and documentation.
+# Dictionary
+Typescript dictionary compiled to es6 modules.
+
+See `./docs/index.html` for documentation
