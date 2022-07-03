@@ -5,6 +5,7 @@
   "browser": "lib/dictionary.js",
   "main": "lib/dictionary.js",
   "types": "lib/dictionary.d.ts",
+  "type": "module",
   "files": [
     "lib/",
     "tasks/"	
