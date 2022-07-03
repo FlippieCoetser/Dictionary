@@ -1,6 +1,6 @@
 {
-  "name": "@browser-modules/typescript.dictionary",
-  "version": "1.0.4",
+  "name": "@browser-modules/dictionary",
+  "version": "1.0.5",
   "description": "Typescript Dictionary complied to ES6 modules",
   "browser": "lib/dictionary.js",
   "main": "lib/dictionary.js",
@@ -18,21 +18,21 @@
     "test": "karma start",
     "posttest": "npm run clean.test",
     "build.lib": "npm run clean.lib && tsc -p ./tasks/build.lib.json",
-    "document": "npx typedoc --tsconfig ./tasks/build.test.json --entryPoints ./src/Dictionary.ts",
+    "document": "npx typedoc --tsconfig ./tasks/build.test.json --entryPoints ./src/dictionary.ts",
     "prestart": "npm run build.lib",
     "start": "http-server -a 127.0.0.1 -o /demo",
     "postinstall": "node ./tasks/injectImportmap.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FlippieCoetser/typescript.dictionary.git"
+    "url": "git+https://github.com/FlippieCoetser/dictionary.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/FlippieCoetser/typescript.dictionary/issues"
+    "url": "https://github.com/FlippieCoetser/dictionary/issues"
   },
-  "homepage": "https://github.com/FlippieCoetser/typescript.dictionary#readme",
+  "homepage": "https://github.com/FlippieCoetser/dictionary#readme",
   "devDependencies": {
     "@knodes/typedoc-plugin-pages": "^0.22.5",
     "@types/jasmine": "^4.0.3",
