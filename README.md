@@ -1,4 +1,4 @@
 # Dictionary
 Typescript dictionary compiled to es6 modules.
 
-[documentation](https://FlippieCoetser.github.io/dictionary/)
+[documentation](https://FlippieCoetser.github.io/Dictionary/)
