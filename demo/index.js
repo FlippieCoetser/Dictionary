@@ -1,4 +1,4 @@
-import { Dictionary } from 'dictionary';
+import { Dictionary } from '@browser-modules/dictionary';
 const dictionary = new Dictionary()
 
 const key = 'key'
