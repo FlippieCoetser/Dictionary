@@ -5,10 +5,7 @@
         "target": "es2020",
         "declaration": true,
         "rootDir": "../src",
-        "outDir": "../lib/",
-        "paths": {
-            "calculator": ["../src/Calculator.js"]
-        }
+        "outDir": "../lib/"
     },
     "include": [
         "../src/**/*"
