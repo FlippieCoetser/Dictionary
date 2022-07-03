@@ -1,6 +1,6 @@
 {
   "name": "@browser-modules/dictionary",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Typescript Dictionary compiled to ES6 modules",
   "browser": "lib/dictionary.js",
   "main": "lib/dictionary.js",
